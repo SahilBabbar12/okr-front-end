@@ -1,11 +1,11 @@
 import React from 'react';
-// import '../styles/FlipCard.css';
+import '../styles/FlipCard.css';
 
 export const ReportingMembers = ({ employee }) => {
     const { name, position, employeeNo } = employee;
 
     return (
-        <div className="flex-shrink-0 w-64 mx-4">
+        <div className="">
             <div className="flip-card-container-2">
                 <div className="flip-card-2">
                     <div className="flip-card-inner">

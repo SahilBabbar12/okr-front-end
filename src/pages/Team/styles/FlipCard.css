@@ -17,20 +17,20 @@
     margin: 0;
 }
 
-.testimonial {
+/* .testimonial {
     @apply text-gray-500 text-base leading-7;
-}
+} */
 
-.flip-card-container {
-    background-color: beige;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-}
+    /* .flip-card-container {
+        background-color: beige;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; 
+        flex-wrap: wrap; 
+        gap: 20px; 
+    } */
 
 .flip-card-inner {
     position: relative;
@@ -117,7 +117,7 @@
 body {
     --def: #E5E7EB; 
     --inv: #fff;
-    @apply flex justify-center items-center flex-col h-screen w-full;
+    /* @apply flex justify-center items-center flex-col h-screen w-full; */
     background-image: linear-gradient(-25deg, #616161 0%, #E5E7EB 100%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -125,7 +125,7 @@ body {
 .flip-card-container-2{
     --hue: 150;
     --primary: hsl(var(--hue), 50%, 50%);
-    --white-1: hsl(0, 0%, 90%);
+    --white-1: hsl(0, 0%, 90%); 
     --white-2: hsl(0, 0%, 80%);
     --dark: hsl(var(--hue), 25%, 10%);
     --grey: hsl(0, 0%, 50%);
@@ -149,7 +149,7 @@ body {
 .flip-card-container-2:hover .flip-card-2,
 .flip-card-container-2:focus-within .flip-card-2 {
 transform: rotateY(180deg);
-}
+}   
 figure {
     z-index: -1;
     }
@@ -229,7 +229,6 @@ transform: translate(2px);
 }
 
 html {
-font-size: 12px;
 font-family: 'Playfair Display', serif;
 }
 

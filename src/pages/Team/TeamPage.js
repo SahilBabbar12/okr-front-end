@@ -7,8 +7,7 @@ import { Footer, Header, Navbar } from "../../components";
 export const TeamPage = () => {
   return (
     <div>
-    <Navbar /> <Header />
-      <div>
+      <div className="flex justify-center">
         <Reports/>
       </div>
       <div className="flex justify-center">
